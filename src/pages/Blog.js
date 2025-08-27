@@ -8,9 +8,9 @@ const Blog = () => {
   const galleryItems = [
     {
       id: 1,
-      title: "Instalación de Aire Acondicionado",
-      description: "Instalación profesional de sistema de aire acondicionado residencial con acabados perfectos.",
-      image: "/images/air-conditioner.jpeg",
+      title: "Instalación de Aire Acondicionado Interior",
+      description: "Instalación profesional de sistema de aire acondicionado interior residencial con acabados perfectos.",
+      image: "/images/aire-acondicionado-inteiror.jpeg",
       category: "Climatización",
       date: "Marzo 2024"
     },
@@ -32,7 +32,7 @@ const Blog = () => {
     },
     {
       id: 4,
-      title: "Mantenimiento de Piscina",
+      title: "Limpieza de Piscina",
       description: "Limpieza profunda y mantenimiento completo de sistema de filtración de piscina.",
       image: "/images/limpieza-piscinas.jpeg",
       category: "Piscinas",
@@ -58,53 +58,69 @@ const Blog = () => {
       id: 7,
       title: "Reparación de Plomería",
       description: "Reparación de sistema de plomería y instalación de nuevos accesorios.",
-      image: "/images/panel-lavadora.jpeg",
+      image: "/images/plomeria.jpeg",
       category: "Plomería",
       date: "Septiembre 2023"
     },
     {
       id: 8,
-      title: "Instalación de Puertas",
-      description: "Instalación profesional de puertas y ventanas con acabados perfectos.",
-      image: "/images/puertas-cochera.jpeg",
-      category: "Carpintería",
+      title: "Servicio de Línea Blanca",
+      description: "Reparación y mantenimiento de electrodomésticos de línea blanca con garantía.",
+      image: "/images/linea-blanca.jpeg",
+      category: "Línea Blanca",
       date: "Agosto 2023"
     },
     {
       id: 9,
-      title: "Sistema de Ventilación",
-      description: "Instalación de sistema de ventilación para mejorar la calidad del aire interior.",
-      image: "/images/ventilacion.jpeg",
-      category: "Ventilación",
+      title: "Instalación de Puertas y Carpintería",
+      description: "Instalación profesional de puertas y ventanas con acabados perfectos.",
+      image: "/images/puertas-cochera.jpeg",
+      category: "Carpintería",
       date: "Julio 2023"
     },
     {
       id: 10,
-      title: "Instalación de Soportes",
-      description: "Instalación segura de soportes para TV y estantes con anclajes profesionales.",
-      image: "/images/instalacion-soportes-muebles.jpeg",
-      category: "Instalación",
+      title: "Sistema de Ventilación",
+      description: "Instalación de sistema de ventilación para mejorar la calidad del aire interior.",
+      image: "/images/ventilacion.jpeg",
+      category: "Ventilación",
       date: "Junio 2023"
     },
     {
       id: 11,
-      title: "Sistema de Comunicación",
-      description: "Instalación de intercomunicador y sistema de audio residencial.",
-      image: "/images/comunicator.jpeg",
-      category: "Comunicación",
+      title: "Instalación de Soportes",
+      description: "Instalación segura de soportes para TV y estantes con anclajes profesionales.",
+      image: "/images/instalacion-soportes-muebles.jpeg",
+      category: "Instalación",
       date: "Mayo 2023"
     },
     {
       id: 12,
+      title: "Sistema de Comunicación",
+      description: "Instalación de intercomunicador y sistema de audio residencial.",
+      image: "/images/comunicator.jpeg",
+      category: "Comunicación",
+      date: "Abril 2023"
+    },
+    {
+      id: 13,
       title: "Enchapado de Cerámica",
       description: "Instalación de cerámica y porcelanato en baños y cocinas.",
       image: "/images/enchapado-ceramica.jpeg",
       category: "Cerámica",
       date: "Abril 2023"
+    },
+    {
+      id: 14,
+      title: "Servicios Comerciales e Industriales",
+      description: "Servicios especializados de mantenimiento y reparación para comercios e industrias con soluciones integrales.",
+      image: "/images/servicios-comerciales-industriales.jpeg",
+      category: "Comercial/Industrial",
+      date: "Marzo 2023"
     }
   ];
 
-  const categories = ["Todos", "Climatización", "Electricidad", "Pintura", "Piscinas", "Iluminación", "Jardinería", "Plomería", "Carpintería", "Ventilación", "Instalación", "Comunicación", "Cerámica"];
+  const categories = ["Todos", "Climatización", "Electricidad", "Pintura", "Piscinas", "Iluminación", "Jardinería", "Plomería", "Línea Blanca", "Carpintería", "Ventilación", "Instalación", "Comunicación", "Cerámica", "Comercial/Industrial"];
 
   const [selectedCategory, setSelectedCategory] = useState("Todos");
 

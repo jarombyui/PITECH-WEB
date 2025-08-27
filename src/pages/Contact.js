@@ -40,18 +40,20 @@ const Contact = () => {
   };
 
   const services = [
-    "Aire Acondicionado",
+    "Aire Acondicionado Interior",
     "Electricidad Residencial",
     "Pintura Profesional",
     "Plomería y Fontanería",
-    "Carpintería y Muebles",
-    "Mantenimiento de Piscinas",
+    "Línea Blanca",
+    "Carpintería y Puertas",
+    "Limpieza de Piscinas",
     "Ventilación y Climatización",
     "Mantenimiento de Jardines",
     "Instalación de Soportes",
     "Sistemas de Comunicación",
     "Enchapado y Cerámica",
     "Estructuras y Construcción",
+    "Servicios Comerciales e Industriales",
     "Otro"
   ];
 
@@ -110,8 +112,8 @@ const Contact = () => {
                 <div className="flex items-start space-x-4">
                   <div className="text-accent text-2xl">✉️</div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Email</h3>
-                                         <p className="opacity-90">servicios@pitech.com</p>
+                                         <h3 className="text-xl font-semibold mb-2">Email</h3>
+                                          <p className="opacity-90">pittechnetworks@gmail.com</p>
                   </div>
                 </div>
 

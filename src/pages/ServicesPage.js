@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 
 const serviceDetails = [
   {
-    title: "Aire Acondicionado",
-    details: "Ofrecemos servicios completos de instalación, mantenimiento y reparación de sistemas de aire acondicionado residencial. Nuestros técnicos certificados garantizan un trabajo profesional y eficiente, incluyendo limpieza de filtros, recarga de refrigerante, reparación de compresores y optimización del rendimiento energético.",
-    image: "/images/air-conditioner.jpeg",
+    title: "Aire Acondicionado Interior",
+    details: "Ofrecemos servicios completos de instalación, mantenimiento y reparación de sistemas de aire acondicionado interior residencial. Nuestros técnicos certificados garantizan un trabajo profesional y eficiente, incluyendo limpieza de filtros, recarga de refrigerante, reparación de compresores y optimización del rendimiento energético.",
+    image: "/images/aire-acondicionado-inteiror.jpeg",
     features: ["Instalación profesional", "Mantenimiento preventivo", "Reparación de averías", "Limpieza de filtros", "Recarga de refrigerante", "Optimización energética"]
   },
   {
@@ -24,17 +24,23 @@ const serviceDetails = [
   {
     title: "Plomería y Fontanería",
     details: "Reparaciones y mantenimiento de sistemas de plomería residencial. Instalamos y reparamos grifos, tuberías, desagües, calentadores de agua y más. Solucionamos problemas de fugas, obstrucciones y mantenemos tu sistema de agua funcionando perfectamente.",
-    image: "/images/panel-lavadora.jpeg",
+    image: "/images/plomeria.jpeg",
     features: ["Reparación de fugas", "Instalación de grifos", "Desatascos", "Mantenimiento de tuberías", "Instalación de accesorios", "Sistemas de agua caliente"]
   },
   {
-    title: "Carpintería y Muebles",
+    title: "Carpintería y Puertas",
     details: "Servicios de carpintería especializada para puertas, ventanas, muebles y estructuras. Realizamos instalaciones, reparaciones y mantenimiento con materiales de calidad. Nuestros carpinteros expertos garantizan acabados perfectos y durabilidad.",
     image: "/images/puertas-cochera.jpeg",
     features: ["Instalación de puertas", "Reparación de ventanas", "Fabricación de muebles", "Mantenimiento de estructuras", "Acabados profesionales", "Materiales de calidad"]
   },
   {
-    title: "Mantenimiento de Piscinas",
+    title: "Línea Blanca",
+    details: "Servicio técnico especializado en reparación y mantenimiento de electrodomésticos de línea blanca. Reparamos refrigeradoras, lavadoras, secadoras, cocinas, microondas y más. Nuestros técnicos certificados garantizan reparaciones eficientes y duraderas.",
+    image: "/images/linea-blanca.jpeg",
+    features: ["Reparación de refrigeradoras", "Servicio de lavadoras", "Mantenimiento de secadoras", "Reparación de cocinas", "Servicio de microondas", "Garantía de trabajo"]
+  },
+  {
+    title: "Limpieza de Piscinas",
     details: "Servicios completos de limpieza, mantenimiento y reparación de piscinas residenciales. Incluye limpieza de filtros, control de pH, reparación de equipos y mantenimiento de sistemas de filtración para mantener tu piscina en perfectas condiciones.",
     image: "/images/limpieza-piscinas.jpeg",
     features: ["Limpieza profunda", "Mantenimiento de filtros", "Control de pH", "Reparación de equipos", "Sistemas de filtración", "Tratamiento de agua"]
@@ -74,6 +80,12 @@ const serviceDetails = [
     details: "Servicios de construcción y reparación de estructuras menores, ampliaciones y mejoras residenciales. Incluye trabajos de albañilería, construcción de muros, reparación de techos y estructuras de soporte.",
     image: "/images/estructuras.jpeg",
     features: ["Construcción menor", "Reparación de estructuras", "Trabajos de albañilería", "Ampliaciones", "Reparación de techos", "Muros de contención"]
+  },
+  {
+    title: "Servicios Comerciales e Industriales",
+    details: "Servicios especializados para comercios e industrias. Ofrecemos soluciones integrales de mantenimiento, reparación e instalación adaptadas a las necesidades específicas del sector comercial e industrial, incluyendo sistemas de climatización, electricidad industrial, mantenimiento preventivo y reparaciones de emergencia.",
+    image: "/images/servicios-comerciales-industriales.jpeg",
+    features: ["Mantenimiento industrial", "Sistemas comerciales", "Reparaciones de emergencia", "Instalaciones especializadas", "Mantenimiento preventivo", "Servicio 24/7"]
   }
 ];
 

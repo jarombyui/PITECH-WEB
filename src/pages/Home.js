@@ -34,39 +34,51 @@ const carouselImages = [
 const services = [
   {
     id: 1,
-    name: "Aire Acondicionado",
-    image: "/images/air-conditioner.jpeg",
-    description: "Instalación, mantenimiento y reparación de sistemas de aire acondicionado"
+    name: "Aire Acondicionado Interior",
+    image: "/images/aire-acondicionado-inteiror.jpeg",
+    description: "Instalación y mantenimiento de aire acondicionado interior residencial"
   },
   {
     id: 2,
-    name: "Electricidad",
+    name: "Electricidad Residencial",
     image: "/images/tablero-electrico.jpeg",
     description: "Instalaciones eléctricas, reparaciones y mantenimiento de tableros"
   },
   {
     id: 3,
-    name: "Pintura",
+    name: "Pintura Profesional",
     image: "/images/pintura.jpeg",
     description: "Servicios profesionales de pintura interior y exterior"
   },
   {
     id: 4,
-    name: "Plomería",
-    image: "/images/panel-lavadora.jpeg",
+    name: "Plomería y Fontanería",
+    image: "/images/plomeria.jpeg",
     description: "Reparaciones de plomería, instalación de accesorios y mantenimiento"
   },
   {
     id: 5,
-    name: "Carpintería",
+    name: "Línea Blanca",
+    image: "/images/linea-blanca.jpeg",
+    description: "Servicio y reparación de electrodomésticos de línea blanca"
+  },
+  {
+    id: 6,
+    name: "Carpintería y Puertas",
     image: "/images/puertas-cochera.jpeg",
     description: "Instalación y reparación de puertas, ventanas y muebles"
   },
   {
-    id: 6,
-    name: "Piscinas",
+    id: 7,
+    name: "Limpieza de Piscinas",
     image: "/images/limpieza-piscinas.jpeg",
     description: "Limpieza, mantenimiento y reparación de piscinas"
+  },
+  {
+    id: 8,
+    name: "Servicios Comerciales e Industriales",
+    image: "/images/servicios-comerciales-industriales.jpeg",
+    description: "Servicios especializados para comercios e industrias"
   }
 ];
 

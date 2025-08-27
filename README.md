@@ -13,18 +13,20 @@ Sitio web oficial de PITECH, especialistas en servicios de mantenimiento y repar
 
 ## Servicios Ofrecidos
 
-- **Aire Acondicionado**: Instalación, mantenimiento y reparación
+- **Aire Acondicionado Interior**: Instalación y mantenimiento de sistemas interiores
 - **Electricidad Residencial**: Tableros, iluminación y sistemas eléctricos
 - **Pintura Profesional**: Interior, exterior y acabados especializados
 - **Plomería y Fontanería**: Reparaciones, instalaciones y mantenimiento
-- **Carpintería y Muebles**: Puertas, ventanas y estructuras
-- **Mantenimiento de Piscinas**: Limpieza, filtración y tratamiento
+- **Línea Blanca**: Reparación y servicio de electrodomésticos
+- **Carpintería y Puertas**: Puertas, ventanas y estructuras
+- **Limpieza de Piscinas**: Limpieza, filtración y tratamiento
 - **Ventilación y Climatización**: Sistemas de aire y extractores
 - **Mantenimiento de Jardines**: Poda, riego y paisajismo
 - **Instalación de Soportes**: TV, estantes y muebles
 - **Sistemas de Comunicación**: Intercomunicadores y audio
 - **Enchapado y Cerámica**: Baños, cocinas y áreas comunes
 - **Estructuras y Construcción**: Ampliaciones y reparaciones menores
+- **Servicios Comerciales e Industriales**: Soluciones especializadas para comercios e industrias
 
 ## Tecnologías Utilizadas
 
@@ -115,7 +117,7 @@ public/
 ## Información de Contacto
 
 - **WhatsApp**: +51 972 963 857
-- **Email**: servicios@pitech.com
+- **Email**: pittechnetworks@gmail.com
 - **Horario**: Lunes a Domingo 7:00 AM - 9:00 PM
 - **Emergencias**: Disponibles 24/7
 - **Zona de Servicio**: Toda la ciudad y alrededores

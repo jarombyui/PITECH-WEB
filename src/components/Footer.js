@@ -70,10 +70,10 @@ const Footer = () => {
                <h4 className="text-xl font-bold mb-2 text-white">Email</h4>
                <p className="text-sm mb-3 text-indigo-100">Consulta detallada</p>
                <a
-                 href="mailto:servicios@pitech.com?subject=Consulta%20Servicios%20Residenciales&body=Hola%20PITECH,%0A%0AMe%20gustaría%20recibir%20información%20detallada%20sobre%20sus%20servicios%20residenciales.%0A%0ASaludos"
+                 href="mailto:pittechnetworks@gmail.com?subject=Consulta%20Servicios%20Residenciales&body=Hola%20PITECH,%0A%0AMe%20gustaría%20recibir%20información%20detallada%20sobre%20sus%20servicios%20residenciales.%0A%0ASaludos"
                  className="inline-block bg-white text-indigo-600 px-4 py-2 rounded-lg font-semibold hover:bg-indigo-50 transition-colors duration-200"
                >
-                 servicios@pitech.com
+                 pittechnetworks@gmail.com
                </a>
              </div>
           </div>
