@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const socialLinks = [
-    { name: 'Facebook', path: 'https://www.facebook.com/profile.php?id=100088810666184', icon: 'fab fa-facebook-f' },
-    { name: 'Instagram', path: 'https://www.instagram.com/1sse.curex/', icon: 'fab fa-instagram' },
+    { name: 'Facebook', path: 'https://www.facebook.com/profile.php?id=61578215169636', icon: 'fab fa-facebook-f' },
+    { name: 'Instagram', path: 'https://www.instagram.com/pit.tech/', icon: 'fab fa-instagram' },
     { name: 'WhatsApp', path: 'https://wa.me/51972963857', icon: 'fab fa-whatsapp' },
   ];
 
@@ -17,12 +17,14 @@ const Footer = () => {
   ];
 
   const services = [
-    'Aire Acondicionado',
+    'Aire Acondicionado Interior',
     'Electricidad Residencial',
     'Pintura Profesional',
     'Plomería y Fontanería',
-    'Carpintería y Muebles',
-    'Mantenimiento de Piscinas'
+    'Línea Blanca',
+    'Carpintería y Puertas',
+    'Limpieza de Piscinas',
+    'Servicios Comerciales e Industriales'
   ];
 
     return (
