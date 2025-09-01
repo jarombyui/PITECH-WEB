@@ -28,6 +28,11 @@ const carouselImages = [
     id: 5,
     image: "/images/mantenimiento-areas-verdes.jpeg",
     caption: "Mantenimiento de áreas verdes y jardines"
+  },
+  {
+    id: 6,
+    image: "/images/servicios-comerciales-industriales.jpeg",
+    caption: "Servicios especializados para comercios e industrias"
   }
 ];
 
